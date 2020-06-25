@@ -1,0 +1,2 @@
+# Python
+SIMPLE IS BEST
