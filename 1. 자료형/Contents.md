@@ -521,17 +521,71 @@ join함수는 기준이되는 조건 문자열에서 사용됩니다. 리스트�
   3
   ```
 
-  
-
 * count
+
+  ```python
+  >>>  # 문자열에서 단어의 개수를 반환한다.
+  >>> decalcomany.count('ab')
+  2
+  ```
 
 * isalnum
 
+  ```python
+  >>>  # 문자열이 문자와 숫자로만 이루어져있는가?
+  >>> decalcomany.isalnum()
+  True
+  ```
+
 * strip
+
+  ```python
+  >>>  # 문자열의 양 끝에서 특정 단어를 삭제한다.
+  >>> decalcomany.strip('a')
+  'bcabccbacb'
+  >>>  # lstrip, rstrip 또한 존재한다.
+  ```
 
 * captialize, title
 
+  문자열을 첫번째 단어, 모든 단어의 첫 글자를 대문자로 만든다.
+
 * upper, lower, swapcase
 
+  모든 문자를 대문자(upper)만들거나 소문자(lower)화 한다.
+
+  혹은 서로 바꾼다(swapcase).
+
 * center, ljust, rjust
+
+  ```python
+  >>>  # 문자열을 입력한 숫자크기의 공백에서 지정위치(center, left, right)에 삽입한다.
+  >>> decalcomany.center(30)
+  '         abcabccbacba         '
+  >>> decalcomany.rjust(30)
+  '                  abcabccbacba'
+  >>> decalcomany.ljust(30)
+  'abcabccbacba                  '
+  ```
+
+  이러한 문자열 정렬(alignment)함수는 차후에 나오는 formatting에 굉장히 편리합니다.
+
+* replace
+
+  ```python
+  >>>  # 특정 단어를 입력 단어로 대체합니다.
+  >>>  # 기본적으로 모든 단어를 대체하며, 인자를 통해 N 회 반복할 수 있습니다.
+  >>> decalcomany.replace('abc', 'kkk')
+  'kkkkkkcbacba'
+  >>> decalcomany.replace('abc', 'kkk', 1)
+  'kkkabcbcabca'
+  ```
+
+  이러한 replace() 함수는 대체하고 싶은 정확한 문자열을 안다면 유용하지만 원하지 않는 데이터를 훼손할 수 있음으로 주의해야합니다.
+
+  대체하고 싶은 문자열이 어떤 특수한 조건을 만족한다면 정규표현식(regular expression)을 사용할 수 있습니다. 이는 차후에 다루도록 하겠습니다.
+
+그 외에도 다양한 표준 문자열 함수들이 존재합니다. 
+
+자세한 사항은 표준 문서 웹사이트를 참고함을 추천합니다.
 
