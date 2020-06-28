@@ -21,3 +21,9 @@
 2. Basic_data_structure.md
 
    리스트, 튜플, 딕셔너리, 셋에 대한 정리
+   
+3. Conditions_and_repetition.md
+
+   조건문과 반복문에 대한 정리
+
+   
