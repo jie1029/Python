@@ -11,25 +11,4 @@
 감사의 말씀을 전합니다.
 
 
-
-1. Basic_data_types.md
-
-   정수, 실수, 수학, 문자열에 대한 정리
-
-   (포맷팅과 정규표현실은 포함되지 않았습니다.)
-
-2. Basic_data_structure.md
-
-   리스트, 튜플, 딕셔너리, 셋에 대한 정리
-   
-3. Conditions_and_repetition.md
-
-   조건문과 반복문에 대한 정리
-
-4. Comprehension.md
-
-   컴프리헨션에 대한 정리
-
-5. Function.md
-
-   함수에 대한 정리
+- 해당 repository는 2020년 7월, 동아리에서 진행된 파이썬 수업을 목적으로 작성되었습니다.
